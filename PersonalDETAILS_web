@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Llhanba - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>LLHANBA LAISHRAM</h1>
+        <p>Email: <a href="mailto:laishramllhanba@gmail.com">laishramllhanba@gmail.com</a></p>
+        <p>Phone: <a href="tel:+919362983641">+919362983641</a></p>
+        <p><a href="https://www.linkedin.com/in/llhanba-laishram" target="_blank">LinkedIn</a> | <a href="https://github.com/yourprofile" target="_blank">GitHub</a></p>
+    </header>
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>Hardworking College Student seeking internships and employment. Trying my best to bringing forth a motivated attitude and a variety of powerful skills. Adept in various social media platforms and office technology programs. Committed to gaining more skills and sharpening them.</p>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>Highschool</h3>
+            <p>Guru Nanak Public School - 2020</p>
+            <p>Passed out HSLC Examination under BOSEM in 1st Division</p>
+        </div>
+        <div class="education-item">
+            <h3>Higher Secondary</h3>
+            <p>ChuraChandpur Higher Secondary School - 2022</p>
+            <p>Passed out HSE Examination under COHSEM in 1st Division</p>
+        </div>
+        <div class="education-item">
+            <h3>B.Tech in Electrical Engineering</h3>
+            <p>Manipur Technical University - Since August 2022</p>
+            <p>Currently pursuing with a CGPA of 7.62 till Records</p>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>C++ and C programming language</li>
+            <li>A glimpse of Python programming language</li>
+            <li>Beginnner Level of Blender, Latex & Ladder programming language</li>
+            <li>Painting and sketching Arts & Designs</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Secure-Flight System</h3>
+            <p>A new revolutionary Autonomous aerial-maneuvering System</p>
+            <p>Pixhawk, Lidar, US-sensor, GPS module and more sensors & softwares</p>
+        </div>
+        <div class="project">
+            <h3>Wireless Robotic-Arm</h3>
+            <p>A ranged prosthetic arm, aimmed to assist experimentation in Harsh environment</p>
+            <p>Arduino</p>
+        </div>
+        <div class="project">
+            <h3>Real time Object tracking</h3>
+            <p>Real time object tracking and security</p>
+            <p>Opencv-python</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:laishramllhanba@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Llhanba</p>
+    </footer>
+</body>
+</html>
